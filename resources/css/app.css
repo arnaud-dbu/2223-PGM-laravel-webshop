@@ -1,0 +1,27 @@
+h1, h2, h3 {
+  font-family: 'Raleway';
+  color: rgb(249 250 251);
+}
+
+h1 {
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-family: 'futura-pt';
+  text-transform: none;
+  font-weight: 300;
+}
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+ .hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+} 
+
+[x-cloak] { display: none !important; }
